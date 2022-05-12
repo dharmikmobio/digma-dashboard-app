@@ -16,7 +16,7 @@ const AddButton = styled.a`
     transition: all ease-in-out 300ms;
 
     &:hover {
-        /* box-shadow: 10px 10px 8px -8px rgba(117, 194, 130, 0.6); */
+         box-shadow: 10px 10px 8px -8px rgba(117, 194, 130, 0.6);
     }
 
 `
@@ -28,7 +28,7 @@ const AddIcon = styled.span`
 
 
 const NewDepositBtn = () => (
-    <AddButton>
+    <AddButton onClick={() => alert('clicked!')}>
         <AddIcon className="iconify" data-inline="false" data-icon="mdi-light:plus" ></AddIcon>
     </AddButton>
 )

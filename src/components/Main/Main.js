@@ -20,7 +20,7 @@ const Main = () => {
             <Nav />
             <NewDepositBtn />
             <Deposits title="Active Deposits" count={2} data={depositData.active} />
-            <Deposits title="Closed Deposits" count={8} data={depositData.closed} />
+            <Deposits  title="Closed Deposits" count={8} data={depositData.closed} />
         </Container>
     )
 }
