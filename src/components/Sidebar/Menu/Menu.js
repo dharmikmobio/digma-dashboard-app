@@ -1,5 +1,5 @@
 import React from 'react'
-import MenuLink from './MenuLink.js'
+import MenuLink from './MenuLink'
 import styled from 'styled-components'
 
 
