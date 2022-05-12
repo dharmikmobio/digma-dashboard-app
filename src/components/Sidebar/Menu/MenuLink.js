@@ -37,8 +37,8 @@ const Title = styled.h1`
 const MenuLink = ({ title, active, icon }) => {
 
     return (
-        <Container active={active}>
-            <Span active={active} className="iconify" data-inline="false" data-icon={`mdi-light:${icon}`}></Span>
+        <Container active={active} onClick={() => alert('clicked!')}>
+            <Span  active={active} className="iconify" data-inline="false" data-icon={`mdi-light:${icon}`}></Span>
             <Title active={active}>{title}</Title>
         </Container>
     )

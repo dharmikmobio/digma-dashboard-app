@@ -30,7 +30,7 @@ const Button = styled.a`
 
 const AllDepositsBtn = ({ title }) => (
     <Container>
-        <Button>All {title}</Button>
+        <Button onClick={() => alert('clicked!')}  >All {title}</Button>
     </Container>
 )
 
